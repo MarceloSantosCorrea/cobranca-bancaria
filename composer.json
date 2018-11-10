@@ -1,0 +1,18 @@
+{
+    "name": "marcelo-correa/cobranca-bancaria",
+    "description": "Geração de Boletos, arquivos de Remessa e Retorno Cnab 240 e 400.",
+    "authors": [
+        {
+            "name": "Marcelo Corrêa",
+            "email": "marcelocorrea229@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CobrancaBancaria\\": "src/"
+        }
+    },
+    "require": {
+        "ext-mbstring": "*"
+    }
+}

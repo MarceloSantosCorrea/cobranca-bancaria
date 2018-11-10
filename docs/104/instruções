@@ -1,0 +1,22 @@
+Detalhe
+    Sacado
+    add[] {
+        Segmento P
+        Segmento Q
+        Segmento R
+    }
+
+Lote{
+    addDetalhe{}
+    detalhes[]
+}
+
+Remessa
+    qtdLotes = 1
+    addLote {
+        Lote
+        qtdLotes++
+    }
+
+
+
